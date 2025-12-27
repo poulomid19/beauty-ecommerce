@@ -15,7 +15,7 @@ const Login = () => {
   }
   const submitHandler=(e)=>{
     e.preventDefault()
-    fetch("http://localhost:3000/api/login",{
+    fetch("https://beauty-ecommerce.onrender.com/api/login",{
       method:"POST",
       headers:{
         "Content-Type":"application/json"

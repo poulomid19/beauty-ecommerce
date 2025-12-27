@@ -8,7 +8,7 @@ const Footer = () => {
   }
   const submitHandler =(e)=>{
    e.preventDefault()
-   fetch("http://localhost:3000/api/subscription", {
+   fetch("https://beauty-ecommerce.onrender.com/api/subscription", {
      method:"POST",
      headers:{
       "Content-Type":"application/json",

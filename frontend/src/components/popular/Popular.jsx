@@ -8,7 +8,7 @@ const Popular = ({value}) => {
     <>
   <div className="lg:w-1/4 md:w-1/2" onClick={clickHandler}>
     <a className="block relative h-64 rounded overflow-hidden">
-      <img alt="ecommerce" className="object-cover object-center w-full h-full block hover:scale-110 transition duration-300 cursor-zoom-in" src={value.image} />
+      <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={value.image} />
     </a>
     <div className="mt-4">
       <h2 className="text-gray-900 title-font text-lg font-medium">{value.name}</h2>

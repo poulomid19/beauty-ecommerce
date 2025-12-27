@@ -17,7 +17,7 @@ const SignUp = () => {
         const submitHandler = (e)=>{
             e.preventDefault()
             
-            fetch("http://localhost:3000/api/userData",{
+            fetch("https://beauty-ecommerce.onrender.com/api/userData",{
                 method: "POST",
                 headers: {
                    "Content-Type":"application/json"

@@ -14,7 +14,7 @@ const Contact = () => {
  }
   const submitHandler = (e)=>{
     e.preventDefault()
-    fetch("http://localhost:3000/api/contactData",{
+    fetch("https://beauty-ecommerce.onrender.com/api/contactData",{
       method:"POST",
       headers:{
         "Content-Type": "application/json"
